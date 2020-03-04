@@ -32,8 +32,8 @@
 		"test": "rollup --environment=NODE_ENV:development -c",
 		"preversion": "npm run test && npm run lint:test && npm run build"
 	},
-	"dependencies": {
-		"reactive-assignments": "^0.2.1"
+	"peerDependencies": {
+		"reactive-assignments": "^0.2.2"
 	},
 	"devDependencies": {
 		"@rollup/plugin-commonjs": "^11.0.2",
@@ -49,6 +49,7 @@
 		"tslib": "^1.11.1",
 		"typescript": "^3.8.3",
 		"zip-tap": "^1.0.6",
-		"zip-tap-reporter": "^2.0.1"
+		"zip-tap-reporter": "^2.0.1",
+		"reactive-assignments": "^0.2.2"
 	}
 }
