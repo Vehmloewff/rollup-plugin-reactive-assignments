@@ -27,7 +27,8 @@
 		"build": "tsc && rollup --environment=NODE_ENV:production -c",
 		"lint": "prettier --write \"./**\"",
 		"lint:test": "prettier --check \"./**\"",
-		"prepublishOnly": "npm run build",
+		"clean": "rm -rf dist typings",
+		"prepublishOnly": "npm run clean && npm run build",
 		"test": "rollup --environment=NODE_ENV:development -c",
 		"preversion": "npm run test && npm run lint:test && npm run build"
 	},
