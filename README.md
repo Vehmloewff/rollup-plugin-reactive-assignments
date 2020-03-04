@@ -1,6 +1,6 @@
 # rollup-plugin-reactive-assignments
 
-Use the reactive-assignments compiler with Rollup
+Use the [reactive-assignments compiler](https://github.com/Vehmloewff/reactive-assignments) with [Rollup](http://rollupjs.org)
 
 ## Installation
 
