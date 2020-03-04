@@ -54,8 +54,8 @@ export default {
 
 ```sh
 # fork repo
-git clone https://github.com/[your_username]/todo
-cd todo
+git clone https://github.com/[your_username]/rollup-plugin-reactive-assignments.git
+cd rollup-plugin-reactive-assignments
 npm i
 npm test -- -w
 ```
