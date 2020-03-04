@@ -1,6 +1,6 @@
 {
 	"name": "rollup-plugin-reactive-assignments",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "Use the reactive-assignments compiler with Rollup",
 	"keywords": [
 		"reactive-assignments",
